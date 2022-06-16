@@ -1,0 +1,22 @@
+.gallery{
+  margin: 10px 50px;
+  position: absolute;
+  margin-top:1400px;
+  text-align: center;
+
+}
+.gallery img{
+  transition: 1s;
+  padding: 10px;
+  width: 300px;
+}
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform : scale(1.1);
+}
+.gallery-h1
+{
+  text-align: center;
+  font-family: "Monserrrat";
+  font-size: 3rem;
+}

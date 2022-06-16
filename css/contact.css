@@ -1,0 +1,54 @@
+
+*{
+  padding:1px;
+  margin: 1px;
+   box-sizing: border-box;
+}
+.head
+{
+  background-color: #ffc107;
+  border-radius: 5px;
+  margin-top: -40px;
+-webkit-box-shadow: 12px 25px 52px 13px rgba(203,219,79,1);
+-moz-box-shadow: 12px 25px 52px 13px rgba(203,219,79,1);
+box-shadow: 12px 25px 52px 13px rgba(203,219,79,1);
+}
+.effect-1
+{
+  border:0;
+  outline:none;
+  width: 100%;
+  padding : 7px 0;
+  border-bottom: 1px solid #ffc107;
+  margin-left: 20px;
+}
+.effect-2
+{
+  margin-left: 100px;
+  width: 150px;
+}
+.effect-3
+{
+  width: 150px;
+}
+.effect-1 ~ .Focus-border
+{
+  position: absolute;
+  bottom: 0;
+  left : 50%;
+  width: 0;
+  height: 2px;
+  background-color: #ffc107;
+  transition: 0.4s;
+}
+.effect-1:focus ~ .Focus-border
+{
+  width: 100%;
+  transition: 0.4s;
+  left:0;
+}
+.btn1
+{
+  margin-left: 240px;
+  color: white;
+}
